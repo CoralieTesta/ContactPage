@@ -1,0 +1,82 @@
+
+.nav {
+    display: flex;
+    justify-content: center;
+    height: 105px;
+}
+
+.buttons {
+    margin: auto;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 30px 0;
+    background-color: rgb(197, 234, 235);
+    font-weight: 900;
+    flex-wrap: wrap;
+    padding-right: 25px;
+}
+
+.btn {
+    border: transparent;
+    width: 140px;
+    cursor: pointer;
+    background-color: rgb(197, 234, 235);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn:hover {
+    color: rgb(32, 93, 121);
+}
+
+.btn:active {
+    background-color: bisque;
+}
+
+
+
+.expandIcon {
+    padding-top: 3px;
+}
+
+.servicesBox {
+    display: flex;
+    justify-content: center;
+}
+
+.services {
+    padding-top: 4px;
+}
+@media screen and (max-width: 655px) {
+    .nav {
+        height: 150px;
+    }
+    .buttons {
+        height: 100px;
+    }
+    .btn {
+        border: 1px solid black;
+        margin-top: 6px;
+        border-radius: 5px;
+        margin-right: 3px;
+    }
+    .btnServices {
+        border: 1px solid black;
+        margin-top: 6px;
+        border-radius: 5px;
+        margin-right: 3px;
+    }
+    .subButtonsServicesContainer {
+        top:42px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .subButtonsServicesContainer {
+        top:26px;
+    }
+    .expandIcon {
+        padding-top: 0;
+    }
+}

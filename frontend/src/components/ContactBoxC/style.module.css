@@ -1,0 +1,60 @@
+.container {
+    width: 90%;
+    height: 220px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.roundedContainer {
+    width: 45%;
+    height: 125%;
+    border-radius: 50%;
+    background-color: rgb(171, 203, 236);
+    margin: auto;
+    position: absolute;
+    padding-top: 30px;
+    top: -10%;
+    left:28%;
+    transition: transform 2s;
+    transform: scale(1);
+}
+.roundedContainer:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.logo {
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-weight: 650;
+    font-size: 30px;
+}
+
+.text {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+@media (hover: none) and (pointer: coarse)  {
+    .roundedContainer {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        top: 0;
+        left:0;
+    }
+    .roundedContainer:hover {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

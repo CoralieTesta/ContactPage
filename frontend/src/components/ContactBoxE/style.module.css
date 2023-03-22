@@ -1,0 +1,19 @@
+.container {
+    font-size: 25px;
+}
+
+.container:hover {
+    color: rgb(53, 4, 175);
+    cursor: pointer;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+
+@media screen and (max-width: 550px) {
+    .container{
+        font-size: 18px;
+    }
+}
