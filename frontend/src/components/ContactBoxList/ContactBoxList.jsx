@@ -10,10 +10,10 @@ import { AiOutlineClockCircle } from "react-icons/ai";
 
 export function ContactBoxList() {
     function callHandler() {
-        Linking.openURL(`tel:0472620532`)
+        Linking.openURL(`tel:0498/48.43.93`)
     }
     function sendMailHandler() {
-        window.open('mailto:demanez.sarah@gmail.com')
+        window.open('mailto:coralie.testa@hotmail.com')
     }
 
     function sendMapHandler() {
@@ -24,14 +24,14 @@ export function ContactBoxList() {
             <ContactBox 
                 logo={<BsTelephone size={22}/>}
                 action={callHandler} 
-                text="0472/62.05.32"
+                text="0498/48.43.93"
                 textButton="APPELER" 
             />
             <ContactBox 
                 logo={<GrMailOption size={22}/>}
                 action={sendMailHandler} 
                 textButton="EMAIL" 
-                text="demanez.sarah@gmail.com"
+                text="coralie.testa@hotmail.com"
             />
             <ContactBox 
                 logo={<HiOutlineBuildingOffice size={24}/>}

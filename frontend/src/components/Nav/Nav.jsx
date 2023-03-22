@@ -7,9 +7,9 @@ export function Nav() {
         <nav>
             <div className={s.buttons}>
                 <button 
-                    onClick={() => navigate("/contactA")} 
+                    onClick={() => navigate("/")} 
                     className={s.btn}
-                    style={{backgroundColor: window.location.pathname==="/contactA"  ? "rgb(148, 195, 197)":"rgb(197, 234, 235)"}}
+                    style={{backgroundColor: window.location.pathname==="/"  ? "rgb(148, 195, 197)":"rgb(197, 234, 235)"}}
                 >
                     Contact A
                 </button>

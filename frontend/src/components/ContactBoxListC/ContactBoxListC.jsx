@@ -9,10 +9,10 @@ import { ContactBoxC } from "../ContactBoxC/ContactBoxC";
 
 export function ContactBoxListC() {
     function callHandler() {
-        Linking.openURL(`tel:0472620532`)
+        Linking.openURL(`tel:0498/48.43.93`)
     }
     function sendMailHandler() {
-        window.open('mailto:demanez.sarah@gmail.com')
+        window.open('mailto:coralie.testa@hotmail.com')
     }
 
     function sendMapHandler() {
@@ -23,14 +23,14 @@ export function ContactBoxListC() {
             <ContactBoxC 
                 logo={<BsTelephone size={50}/>}
                 action={callHandler} 
-                text="0472/62.05.32"
+                text="0498/48.43.93"
                 title="Téléphone" 
                 color="#3F87A3"
             />
             <ContactBoxC
                 logo={<AiOutlineMail size={50}/>}
                 action={sendMailHandler} 
-                text="demanez.sarah@gmail.com"
+                text="coralie.testa@hotmail.com"
                 title="E-mail" 
             />
             <ContactBoxC
